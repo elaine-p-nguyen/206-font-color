@@ -9,14 +9,18 @@ section {
   width: 50%;
   margin: auto;
 }
-
+/*---------- PHONE ----------*/
 h1 {
   font-size: 2em;
+  color: #7b7d70;
 }
 
 h2 {
   font-size: 1.5em;
+  color: #4eafb8;
 }
+
+p { color: #ff8641; }
 
 /*---------- TABLET ----------*/
 /* Change the font color in heading below */
@@ -32,11 +36,4 @@ h2 {
   h1 { color: #6e4b61;}
   h2 { color: #cabd61;}
   p { color: #c19e74; }
-}
-
-/*---------- PHONE ----------*/
-@media (max-width:650px) {
-h1 { color: #7b7d70;}
-h2 { color: #4eafb8;}
-p { color: #ff8641; }
 }
